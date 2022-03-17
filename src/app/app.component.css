@@ -13,12 +13,9 @@
 }
 
 .container-fluid {
-    /* display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap; */
     position: fixed;
     background-color: white;
-    margin-top: 58px;
+    margin-top: 39px;
 }
 
 .logo-container {
@@ -109,7 +106,7 @@ svg {
 .filters {
     position: fixed;
     left: 250px;
-    top: 72px;
+    top: 54px;
     width: calc(100% - 250px);
     height: 60px;
     background-color: #fff;

@@ -14,7 +14,7 @@ api_key = environment.api_key
 
 getChannels(channelName: any){
 return this.http.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${channelName}&type=channel&key=${this.api_key}&maxResults=50`)
-}
+} 
 
 }
 
